@@ -1,0 +1,1855 @@
+<html lang="en"><head><!-- Shady DOM styles for custom-style --><!-- Shady DOM styles for dom-template --><!-- Shady DOM styles for dom-repeat --><!-- Shady DOM styles for array-selector --><!-- Shady DOM styles for dom-if --><!-- Shady DOM styles for iron-location --><!-- Shady DOM styles for iron-query-params --><!-- Shady DOM styles for app-location --><!-- Shady DOM styles for app-route --><!-- Shady DOM styles for iron-pages --><style scope="iron-pages">iron-pages {
+  display: block;
+}
+
+iron-pages > :not(.iron-selected) {
+  display: none !important;
+}</style><!-- Shady DOM styles for iron-a11y-announcer --><style scope="iron-a11y-announcer">iron-a11y-announcer {
+  display: inline-block;
+        position: fixed;
+        clip: rect(0px,0px,0px,0px);
+}</style><!-- Shady DOM styles for iron-meta --><!-- Shady DOM styles for iron-meta-query --><!-- Shady DOM styles for iron-input --><!-- Shady DOM styles for paper-input-char-counter --><!-- Shady DOM styles for paper-input-container --><style scope="paper-input-container-0">.paper-input-container-0 {
+  display: block;
+        padding: 8px 0;;
+}
+
+.paper-input-container-0[inline] {
+  display: inline-block;
+}
+
+.paper-input-container-0[disabled] {
+  pointer-events: none;
+        opacity: 0.33;;
+}
+
+.paper-input-container-0[hidden] {
+  display: none !important;
+}
+
+.paper-input-container-0 [hidden].paper-input-container {
+  display: none !important;
+}
+
+.paper-input-container-0 .floated-label-placeholder.paper-input-container {
+  font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.011em;
+      line-height: 20px;
+}
+
+.paper-input-container-0 .underline.paper-input-container {
+  height: 2px;
+        position: relative;
+}
+
+.paper-input-container-0 .focused-line.paper-input-container {
+  position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+        border-bottom: 2px solid #3f51b5;
+
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: scale3d(0,1,1);
+        transform: scale3d(0,1,1);;
+}
+
+.paper-input-container-0 .underline.is-highlighted.paper-input-container .focused-line.paper-input-container {
+  -webkit-transform: none;
+        transform: none;
+        -webkit-transition: -webkit-transform 0.25s;
+        transition: transform 0.25s;;
+}
+
+.paper-input-container-0 .underline.is-invalid.paper-input-container .focused-line.paper-input-container {
+  border-color: #dd2c00;
+        -webkit-transform: none;
+        transform: none;
+        -webkit-transition: -webkit-transform 0.25s;
+        transition: transform 0.25s;;
+}
+
+.paper-input-container-0 .unfocused-line.paper-input-container {
+  position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+        border-bottom: 1px solid #737373;;
+}
+
+.paper-input-container-0[disabled] .unfocused-line.paper-input-container {
+  border-bottom: 1px dashed;
+        border-color: #737373;;
+}
+
+.paper-input-container-0 .input-wrapper.paper-input-container {
+  display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;-ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+        position: relative;
+}
+
+.paper-input-container-0 .input-content.paper-input-container {
+  -ms-flex: 1 1 auto;
+      -webkit-flex: 1 1 auto;
+      flex: 1 1 auto;position: relative;
+        max-width: 100%;
+}
+
+.paper-input-container-0 .input-content.paper-input-container > label,.paper-input-container-0 .input-content.paper-input-container > .paper-input-label {
+  position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        font: inherit;
+        color: #737373;
+        -webkit-transition: -webkit-transform 0.25s, width 0.25s;
+        transition: transform 0.25s, width 0.25s;
+        -webkit-transform-origin: left top;
+        transform-origin: left top;white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;;;
+}
+
+.paper-input-container-0 .input-content.label-is-floating.paper-input-container > label,.paper-input-container-0 .input-content.label-is-floating.paper-input-container > .paper-input-label {
+  -webkit-transform: translateY(-75%) scale(0.75);
+        transform: translateY(-75%) scale(0.75);
+
+        
+        width: 133%;;
+}
+
+[dir="rtl"] .paper-input-container-0 .input-content.label-is-floating.paper-input-container > label, .paper-input-container-0[dir="rtl"] .input-content.label-is-floating.paper-input-container > label,[dir="rtl"] .paper-input-container-0 .input-content.label-is-floating.paper-input-container > .paper-input-label, .paper-input-container-0[dir="rtl"] .input-content.label-is-floating.paper-input-container > .paper-input-label {
+  width: 100%;
+        -webkit-transform-origin: right top;
+        transform-origin: right top;
+}
+
+.paper-input-container-0 .input-content.label-is-highlighted.paper-input-container > label,.paper-input-container-0 .input-content.label-is-highlighted.paper-input-container > .paper-input-label {
+  color: #3f51b5;;
+}
+
+.paper-input-container-0 .input-content.is-invalid.paper-input-container > label,.paper-input-container-0 .input-content.is-invalid.paper-input-container > .paper-input-label {
+  color: #dd2c00;
+}
+
+.paper-input-container-0 .input-content.label-is-hidden.paper-input-container > label,.paper-input-container-0 .input-content.label-is-hidden.paper-input-container > .paper-input-label {
+  visibility: hidden;
+}
+
+.paper-input-container-0 .input-content.paper-input-container > iron-input {
+  position: relative; 
+          outline: none;
+          box-shadow: none;
+          padding: 0;
+          width: 100%;
+          max-width: 100%;
+          background: transparent;
+          border: none;
+          color: #212121;
+          -webkit-appearance: none;
+          text-align: inherit;
+          vertical-align: bottom;font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+}
+
+.paper-input-container-0 .input-content.paper-input-container > input,.paper-input-container-0 .input-content.paper-input-container > textarea,.paper-input-container-0 .input-content.paper-input-container > iron-autogrow-textarea,.paper-input-container-0 .input-content.paper-input-container > .paper-input-input {
+  position: relative; 
+          outline: none;
+          box-shadow: none;
+          padding: 0;
+          width: 100%;
+          max-width: 100%;
+          background: transparent;
+          border: none;
+          color: #212121;
+          -webkit-appearance: none;
+          text-align: inherit;
+          vertical-align: bottom;font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;;
+}
+
+.paper-input-container-0 .input-content.paper-input-container > input::-webkit-outer-spin-button,.paper-input-container-0 .input-content.paper-input-container > input::-webkit-inner-spin-button {
+  ;
+}
+
+.paper-input-container-0 .input-content.focused.paper-input-container > input,.paper-input-container-0 .input-content.focused.paper-input-container > textarea,.paper-input-container-0 .input-content.focused.paper-input-container > iron-autogrow-textarea,.paper-input-container-0 .input-content.focused.paper-input-container > .paper-input-input {
+  ;
+}
+
+.paper-input-container-0 .input-content.is-invalid.paper-input-container > input,.paper-input-container-0 .input-content.is-invalid.paper-input-container > textarea,.paper-input-container-0 .input-content.is-invalid.paper-input-container > iron-autogrow-textarea,.paper-input-container-0 .input-content.is-invalid.paper-input-container > .paper-input-input {
+  ;
+}
+
+.paper-input-container-0 .prefix.paper-input-container > * {
+  display: inline-block;font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;-ms-flex: none;
+      -webkit-flex: none;
+      flex: none;;
+}
+
+.paper-input-container-0 .suffix.paper-input-container > * {
+  display: inline-block;font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;-ms-flex: none;
+      -webkit-flex: none;
+      flex: none;;
+}
+
+.paper-input-container-0 .input-content.paper-input-container > input {
+  min-width: 0;
+}
+
+.paper-input-container-0 .input-content.paper-input-container > textarea {
+  resize: none;
+}
+
+.paper-input-container-0 .add-on-content.paper-input-container {
+  position: relative;
+}
+
+.paper-input-container-0 .add-on-content.is-invalid.paper-input-container > * {
+  color: #dd2c00;
+}
+
+.paper-input-container-0 .add-on-content.is-highlighted.paper-input-container > * {
+  color: #3f51b5;
+}</style><!-- Shady DOM styles for paper-input-error --><!-- Shady DOM styles for paper-input --><style scope="paper-input-0">.paper-input-0 {
+  display: block;
+}
+
+.paper-input-0[focused] {
+  outline: none;
+}
+
+.paper-input-0[hidden] {
+  display: none !important;
+}
+
+.paper-input-0 input.paper-input {
+  position: relative; 
+        outline: none;
+        box-shadow: none;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        background: transparent;
+        border: none;
+        color: #212121;
+        -webkit-appearance: none;
+        text-align: inherit;
+        vertical-align: bottom;
+
+        
+        min-width: 0;font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;;
+}
+
+.paper-input-0 input.paper-input::-webkit-outer-spin-button,.paper-input-0 input.paper-input::-webkit-inner-spin-button {
+  ;
+}
+
+.paper-input-0 input.paper-input::-webkit-clear-button {
+  ;
+}
+
+.paper-input-0 input.paper-input::-webkit-input-placeholder {
+  color: #737373;
+}
+
+.paper-input-0 input.paper-input:-moz-placeholder {
+  color: #737373;
+}
+
+.paper-input-0 input.paper-input::-moz-placeholder {
+  color: #737373;
+}
+
+.paper-input-0 input.paper-input::-ms-clear {
+  ;
+}
+
+.paper-input-0 input.paper-input:-ms-input-placeholder {
+  color: #737373;
+}
+
+.paper-input-0 label.paper-input {
+  pointer-events: none;
+}</style><!-- Shady DOM styles for paper-material --><style scope="paper-material-0">.paper-material-0 {
+  display: block;
+        position: relative;
+}
+
+.paper-material-0[elevation="1"] {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 5px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.paper-material-0[elevation="2"] {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 10px 0 rgba(0, 0, 0, 0.12),
+                  0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+.paper-material-0[elevation="3"] {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
+.paper-material-0[elevation="4"] {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                  0 3px 14px 2px rgba(0, 0, 0, 0.12),
+                  0 5px 5px -3px rgba(0, 0, 0, 0.4);
+}
+
+.paper-material-0[elevation="5"] {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+                  0  6px 30px 5px rgba(0, 0, 0, 0.12),
+                  0  8px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.paper-material-0[animated] {
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.paper-material-0 {
+  ;
+}</style><!-- Shady DOM styles for paper-image --><style scope="paper-image-0">.paper-image-0 {
+  display: inline-block;
+				margin: 8px;
+}
+
+a[href]..paper-image-0 paper-image {
+  cursor: pointer;
+}
+
+.paper-image-0 p.paper-image {
+  padding: 8px; margin: 0;
+}
+
+.paper-image-0 #title.paper-image {
+  white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				max-width: calc(100% - 16px);
+}
+
+.paper-image-0 #panel.paper-image {
+  position: absolute;
+				left: 0; bottom: 0; right: 0;
+				height: calc(1em + 16px);
+
+				font-family: inherit;
+				text-align: center;
+				background: #3f51b5;
+				color: #ff4081;
+
+				transition: height .2s ease, background .2s ease;;
+}
+
+@media only screen and (min-width: 752px) {
+.paper-image-0:hover #panel.paper-image {
+  height: 50%;
+					background: #3f51b5;
+					color: #ff4081;;
+}
+
+}
+
+.paper-image-0.panel-disabled #panel.paper-image {
+  display: none;
+}
+
+.paper-image-0 a.paper-image,.paper-image-0 a.paper-image:link,.paper-image-0 a.paper-image:visited,.paper-image-0 a.paper-image:hover,.paper-image-0 a.paper-image:active {
+  color: #ff4081;
+				text-decoration: none;
+}
+
+.paper-image-0 #material.paper-image {
+  border-radius: 2px;
+				overflow: hidden;
+				position: relative;
+}
+
+.paper-image-0 #image.paper-image {
+  display: block;
+				transition: all .2s ease;
+				max-width: 100%; width: auto;
+				height: auto;
+				background: #3f51b5;
+				object-fit: cover;;
+}</style><!-- Shady DOM styles for paper-ripple --><style scope="paper-ripple">paper-ripple {
+  display: block;
+        position: absolute;
+        border-radius: inherit;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        
+        pointer-events: none;
+}
+
+paper-ripple[animating] {
+  -webkit-transform: translate(0, 0);
+        transform: translate3d(0, 0, 0);
+}
+
+#background.paper-ripple,#waves.paper-ripple,.wave-container.paper-ripple,.wave.paper-ripple {
+  pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+
+#background.paper-ripple,.wave.paper-ripple {
+  opacity: 0;
+}
+
+#waves.paper-ripple,.wave.paper-ripple {
+  overflow: hidden;
+}
+
+.wave-container.paper-ripple,.wave.paper-ripple {
+  border-radius: 50%;
+}
+
+paper-ripple.circle #background.paper-ripple,paper-ripple.circle #waves.paper-ripple {
+  border-radius: 50%;
+}
+
+paper-ripple.circle .wave-container.paper-ripple {
+  overflow: hidden;
+}</style><!-- Shady DOM styles for paper-button --><style scope="paper-button-0">.paper-button-0 {
+  display: block;
+        position: relative;
+}
+
+.paper-button-0[elevation="1"] {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 5px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.paper-button-0[elevation="2"] {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 10px 0 rgba(0, 0, 0, 0.12),
+                  0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+.paper-button-0[elevation="3"] {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
+.paper-button-0[elevation="4"] {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                  0 3px 14px 2px rgba(0, 0, 0, 0.12),
+                  0 5px 5px -3px rgba(0, 0, 0, 0.4);
+}
+
+.paper-button-0[elevation="5"] {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+                  0  6px 30px 5px rgba(0, 0, 0, 0.12),
+                  0  8px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.paper-button-0 {
+  display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
+      display: inline-flex;-ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;-ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        min-width: 5.14em;
+        margin: 0 0.29em;
+        background: transparent;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
+        font: inherit;
+        text-transform: uppercase;
+        outline-width: 0;
+        border-radius: 3px;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: pointer;
+        z-index: 0;
+        padding: 0.7em 0.57em;font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;;
+}
+
+.paper-button-0[hidden] {
+  display: none !important;
+}
+
+.paper-button-0[raised].keyboard-focus {
+  font-weight: bold;;
+}
+
+.paper-button-0:not([raised]).keyboard-focus {
+  font-weight: bold;;
+}
+
+.paper-button-0[disabled] {
+  background: #eaeaea;
+        color: #a8a8a8;
+        cursor: auto;
+        pointer-events: none;;
+}
+
+.paper-button-0[animated] {
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.paper-button-0 paper-ripple.paper-button {
+  color:;
+}</style><!-- Shady DOM styles for app-drawer --><style scope="app-drawer-0">.app-drawer-0 {
+  position: fixed;
+        top: -120px;
+        right: 0;
+        bottom: -120px;
+        left: 0;
+
+        visibility: hidden;
+
+        transition-property: visibility;
+}
+
+.app-drawer-0[opened] {
+  visibility: visible;
+}
+
+.app-drawer-0[persistent] {
+  width: 256px;
+}
+
+.app-drawer-0[persistent][position=left] {
+  right: auto;
+}
+
+.app-drawer-0[persistent][position=right] {
+  left: auto;
+}
+
+.app-drawer-0 #contentContainer.app-drawer {
+  position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        width: 256px;
+        padding: 120px 0;
+
+        transition-property: -webkit-transform;
+        transition-property: transform;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+
+        background-color: #FFF;;
+}
+
+.app-drawer-0 #contentContainer[persistent].app-drawer {
+  width: 100%;
+}
+
+.app-drawer-0 #contentContainer[position=right].app-drawer {
+  right: 0;
+        left: auto;
+
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+}
+
+.app-drawer-0 #contentContainer[swipe-open].app-drawer::after {
+  position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+
+        visibility: visible;
+
+        width: 20px;
+
+        content: '';
+}
+
+.app-drawer-0 #contentContainer[swipe-open][position=right].app-drawer::after {
+  right: 100%;
+        left: auto;
+}
+
+.app-drawer-0 #contentContainer[opened].app-drawer {
+  -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+}
+
+.app-drawer-0 #scrim.app-drawer {
+  position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        transition-property: opacity;
+        -webkit-transform: translateZ(0);
+        transform:  translateZ(0);
+
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.5);
+}
+
+.app-drawer-0 #scrim.visible.app-drawer {
+  opacity: 1;
+}
+
+.app-drawer-0[no-transition] #contentContainer.app-drawer {
+  transition-property: none;
+}</style><!-- Shady DOM styles for iron-media-query --><!-- Shady DOM styles for app-drawer-layout --><!-- Shady DOM styles for app-header --><style scope="app-header-0">.app-header-0 {
+  position: relative;
+        display: block;
+        transition-timing-function: linear;
+        transition-property: -webkit-transform;
+        transition-property: transform;
+}
+
+.app-header-0::before {
+  position: absolute;
+        right: 0px;
+        bottom: -5px;
+        left: 0px;
+        width: 100%;
+        height: 5px;
+        content: "";
+        transition: opacity 0.4s;
+        pointer-events: none;
+        opacity: 0;
+        box-shadow: inset 0px 5px 6px -3px rgba(0, 0, 0, 0.4);
+        will-change: opacity;;
+}
+
+.app-header-0[shadow]::before {
+  opacity: 1;
+}
+
+.app-header-0 #background.app-header {
+  position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+        overflow: hidden;
+}
+
+.app-header-0 #backgroundFrontLayer.app-header,.app-header-0 #backgroundRearLayer.app-header {
+  position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+        height: 100%;
+        pointer-events: none;
+        background-size: cover;
+}
+
+.app-header-0 #backgroundFrontLayer.app-header {
+  ;
+}
+
+.app-header-0 #backgroundRearLayer.app-header {
+  opacity: 0;;
+}
+
+.app-header-0 #contentContainer.app-header {
+  position: relative;
+        width: 100%;
+        height: 100%;
+}
+
+.app-header-0[disabled],.app-header-0[disabled]::after,.app-header-0[disabled] #backgroundFrontLayer.app-header,.app-header-0[disabled] #backgroundRearLayer.app-header,.app-header-0[silent-scroll],.app-header-0[silent-scroll]::after,.app-header-0[silent-scroll] #backgroundFrontLayer.app-header,.app-header-0[silent-scroll] #backgroundRearLayer.app-header {
+  transition: none !important;
+}
+
+.app-header-0[disabled] > app-toolbar:first-of-type,.app-header-0[disabled] > [sticky],.app-header-0[silent-scroll] > app-toolbar:first-of-type,.app-header-0[silent-scroll] > [sticky] {
+  transition: none !important;
+}</style><!-- Shady DOM styles for app-header-layout --><!-- Shady DOM styles for app-toolbar --><style scope="app-toolbar-0">.app-toolbar-0 {
+  display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;-ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+        position: relative;
+        height: 64px;
+        padding: 0 16px;
+        pointer-events: none;
+        font-size: 20px;
+}
+
+.app-toolbar-0 > * {
+  pointer-events: auto;
+}
+
+.app-toolbar-0 > paper-icon-button {
+  font-size: 0;
+}
+
+.app-toolbar-0 > [main-title],.app-toolbar-0 > [condensed-title] {
+  pointer-events: none;-ms-flex: 1 1 0.000000001px;
+      -webkit-flex: 1;
+      flex: 1;
+      -webkit-flex-basis: 0.000000001px;
+      flex-basis: 0.000000001px;
+}
+
+.app-toolbar-0 > [bottom-item] {
+  position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+.app-toolbar-0 > [top-item] {
+  position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+}
+
+.app-toolbar-0 > [spacer] {
+  margin-left: 64px;
+}</style><!-- Shady DOM styles for app-box --><!-- Shady DOM styles for iron-icon --><style scope="iron-icon-1">.iron-icon-1 {
+  display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
+      display: inline-flex;-ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;-ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+        position: relative;
+
+        vertical-align: middle;
+
+        fill: currentcolor;
+        stroke: none;
+
+        width: 24px;
+        height: 24px;;
+}</style><style scope="iron-icon-0">.iron-icon-0 {
+  display: -ms-inline-flexbox;
+      display: -webkit-inline-flex;
+      display: inline-flex;-ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;-ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+        position: relative;
+
+        vertical-align: middle;
+
+        fill: currentcolor;
+        stroke: none;
+
+        width: 100%;
+        height: 100%;;
+}</style><!-- Shady DOM styles for paper-icon-button --><style scope="paper-icon-button-0">.paper-icon-button-0 {
+  display: inline-block;
+        position: relative;
+        padding: 8px;
+        outline: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: pointer;
+        z-index: 0;
+        line-height: 1;
+
+        width: 40px;
+        height: 40px;
+
+        
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
+
+        
+        box-sizing: border-box !important;;
+}
+
+.paper-icon-button-0 #ink.paper-icon-button {
+  color: #212121;
+        opacity: 0.6;
+}
+
+.paper-icon-button-0[disabled] {
+  color: #9b9b9b;
+        pointer-events: none;
+        cursor: auto;;
+}
+
+.paper-icon-button-0:hover {
+  ;
+}
+
+.paper-icon-button-0 iron-icon.paper-icon-button {
+  ;
+}</style><!-- Shady DOM styles for paper-menu --><style scope="paper-menu-0">.paper-menu-0 .selectable-content.paper-menu  > .iron-selected {
+  font-weight: bold;;
+}
+
+.paper-menu-0 .selectable-content.paper-menu  > [disabled] {
+  color: #9b9b9b;
+}
+
+.paper-menu-0 .selectable-content.paper-menu  > *:focus {
+  position: relative;
+        outline: 0;;
+}
+
+.paper-menu-0 .selectable-content.paper-menu  > *:focus:after {
+  position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+        background: currentColor;
+        opacity: 0.12;
+        content: '';
+        pointer-events: none;;
+}
+
+.paper-menu-0 .selectable-content.paper-menu  > *[colored]:focus:after {
+  opacity: 0.26;
+}
+
+.paper-menu-0 {
+  display: block;
+        padding: 8px 0;
+
+        background: #ffffff;
+        color: #212121;;
+}</style><!-- Shady DOM styles for paper-item --><style scope="paper-item-0">.paper-item-0,.paper-item-0 .paper-item.paper-item {
+  display: block;
+        position: relative;
+        min-height: 48px;
+        padding: 0px 16px;
+}
+
+.paper-item-0 .paper-item.paper-item {
+  font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+        border:none;
+        outline: none;
+        background: white;
+        width: 100%;
+        text-align: left;
+}
+
+.paper-item-0[hidden],.paper-item-0 .paper-item[hidden].paper-item {
+  display: none !important;
+}
+
+.paper-item-0.iron-selected,.paper-item-0 .paper-item.iron-selected.paper-item {
+  font-weight: bold;;
+}
+
+.paper-item-0[disabled],.paper-item-0 .paper-item[disabled].paper-item {
+  color: #9b9b9b;;
+}
+
+.paper-item-0:focus,.paper-item-0 .paper-item.paper-item:focus {
+  position: relative;
+        outline: 0;;
+}
+
+.paper-item-0:focus:before,.paper-item-0 .paper-item.paper-item:focus:before {
+  position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+        background: currentColor;
+        content: '';
+        opacity: 0.12;
+        pointer-events: none;;
+}
+
+.paper-item-0 {
+  display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;-ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;font-family: 'Roboto', 'Noto', sans-serif;
+      -webkit-font-smoothing: antialiased;
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;;
+}</style><!-- Shady DOM styles for iron-iconset-svg --><!-- Shady DOM styles for ss-header --><style scope="ss-header">app-toolbar.ss-header {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+app-drawer.ss-header {
+  z-index: 1000;
+}
+
+paper-image.ss-header {
+  width: 80px;
+}
+
+paper-menu.ss-header a.ss-header {
+  text-decoration: none;
+}
+
+paper-menu.ss-header a.ss-header:hover {
+  text-decoration: underline;
+}
+
+paper-item.ss-header {
+  color: #212121;
+        font-weight: 700;
+        margin-top: 0;
+}</style><!-- Shady DOM styles for ss-home --><style scope="ss-home">#main-layout.ss-home {
+  max-width: 800px;
+        width: auto;
+        margin: auto;
+}
+
+#search.ss-home {
+  min-height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+}
+
+#search-form.ss-home {
+  width: 100%;
+        display: flex;
+        justify-content: center;
+        max-height: 50px;
+}
+
+#icons.ss-home {
+  max-width: 800px;
+        margin: auto;
+}
+
+#icon-list.ss-home {
+  text-align: center;
+        list-style-type: none;
+        margin: 60px 0 60px 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+#icon-list.ss-home li.ss-home {
+  border-radius: 4px;
+        padding: 4px;
+        box-shadow: 2px 2px 2px gray;
+}
+
+#icon-list.ss-home #news-icon.ss-home {
+  background-color: #99B006;
+}
+
+#icon-list.ss-home #history-icon.ss-home {
+  background-color: #FC7308;
+}
+
+#icon-list.ss-home li.ss-home a.ss-home {
+  text-decoration: none;
+        position: relative;
+        top: 3px;
+}
+
+#icon-list.ss-home li.ss-home a.ss-home span.ss-home {
+  font-size: 22px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-left: 5px;
+        position: relative;
+        top: -3px;
+        color: white;
+}
+
+#choose2matter.ss-home {
+  max-width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+}
+
+@media (max-width: 770px) {
+#icon-list.ss-home {
+  flex-direction: column;
+}
+
+#icon-list.ss-home li.ss-home {
+  font-size: 50px;  
+          padding: 4px;
+}
+
+#icon-list.ss-home li.ss-home a.ss-home {
+  top: -2px;
+}
+
+#icon-list.ss-home li.ss-home a.ss-home img.ss-home {
+  width: 30px;
+          height: 30px;
+}
+
+#icon-list.ss-home li.ss-home a.ss-home span.ss-home {
+  font-size: 30px;
+}
+
+#choose2matter.ss-home {
+  flex-direction: column;
+          text-align: center;
+          border: 1px solid #6e6e6e;
+}
+
+}</style><!-- Shady DOM styles for ss-search-box --><style scope="ss-search-box">ss-search-box {
+  width: 100%;
+        display: flex;
+        justify-content: center;
+}
+
+paper-input.ss-search-box {
+  width: 70%;
+}
+
+paper-button.ss-search-box {
+  font-weight: bold;
+}</style><!-- Shady DOM styles for ss-search --><style scope="ss-search-0">.ss-search-0 #main-layout.ss-search {
+  max-width: 800px;
+        width: auto;
+        margin: auto;
+}
+
+.ss-search-0 #search.ss-search {
+  min-height: 300px;
+        display: flex;
+        justify-content: center;
+}
+
+.ss-search-0 .center.ss-search {
+  display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+}
+
+.ss-search-0 .tab-container.ss-search {
+  margin: 10px 0;
+        min-width: 400px;
+}
+
+.ss-search-0 ss-search-box.ss-search {
+  margin: 10px 0;
+}
+
+.ss-search-0 paper-tabs.ss-search {
+  ;
+}
+
+.ss-search-0 paper-tab[link].ss-search a.ss-search {
+  display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;-ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;-ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+        text-decoration: none;
+}</style><!-- Shady DOM styles for ss-about --><style scope="ss-about">#main-layout.ss-about {
+  max-width: 800px;
+        width: auto;
+        margin: auto;
+}
+
+#about.ss-about {
+  padding: 0 20px;
+}</style><!-- Shady DOM styles for ss-privacy --><style scope="ss-privacy">#main-layout.ss-privacy {
+  max-width: 800px;
+        width: auto;
+        margin: auto;
+}
+
+#privacy.ss-privacy {
+  padding: 0 20px;
+}</style><!-- Shady DOM styles for ss-tos --><style scope="ss-tos">#main-layout.ss-tos {
+  max-width: 800px;
+        width: auto;
+        margin: auto;
+}
+
+#tos.ss-tos {
+  padding: 0 20px;
+}</style><!-- Shady DOM styles for sweetsearch-app --><style scope="sweetsearch-app">sweetsearch-app {
+  display: block;
+}</style><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>SweetSearch - A Search Engine for Students</title>
+    <meta name="description" content="A search engine for students that emphasizes high quality resources evaluated and approved by educators, librarians and research experts.">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+
+    <link rel="stylesheet" type="text/css" href="src/css/main.css">
+
+    <script async="" src="//cse.google.com/adsense/search/async-ads.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://cse.google.com/cse.js?cx=008926384467086520266:noxzoun6mdg"></script><script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,300,300italic,400italic,500,500italic,700,700italic" crossorigin="anonymous"><style></style><style>
+  /* IE 10 support for HTML5 hidden attr */
+  [hidden] {
+    display: none !important;
+  }
+</style><style></style><style></style><style></style><style></style><link rel="import" href="/src/sweetsearch-app/sweetsearch-app.html">
+  <script src="https://www.google.com/cse/static/element/cc267ab8871224bd/cse_element__en.js?usqp=CAI%3D" type="text/javascript"></script><link type="text/css" rel="stylesheet" href="https://www.google.com/cse/static/element/cc267ab8871224bd/default+en.css"><link type="text/css" rel="stylesheet" href="https://www.google.com/cse/static/style/look/v4/default.css"><style type="text/css">.gsc-control-cse{font-family:arial, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}.gsc-control-cse{border-color:#FFFFFF;background-color:#FFFFFF}input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus{border-color:#D9D9D9}.gsc-search-button-v2,.gsc-search-button-v2:hover,.gsc-search-button-v2:focus{border-color:#666666;background-color:#CECECE;background-image:none;filter:none}.gsc-search-button-v2 svg{fill:#FFFFFF}.gsc-tabHeader.gsc-tabhActive,.gsc-refinementHeader.gsc-refinementhActive{color:#CCCCCC;border-color:#CCCCCC;background-color:#FFFFFF}.gsc-tabHeader.gsc-tabhInactive,.gsc-refinementHeader.gsc-refinementhInactive{color:#CCCCCC;border-color:#CCCCCC;background-color:#FFFFFF}.gsc-webResult.gsc-result,.gsc-results .gsc-imageResult{border-color:#FFFFFF;background-color:#FFFFFF}.gsc-webResult.gsc-result:hover{border-color:#FFFFFF;background-color:#FFFFFF}.gs-webResult.gs-result a.gs-title:link,.gs-webResult.gs-result a.gs-title:link b,.gs-imageResult a.gs-title:link,.gs-imageResult a.gs-title:link b{color:#0000CC}.gs-webResult.gs-result a.gs-title:visited,.gs-webResult.gs-result a.gs-title:visited b,.gs-imageResult a.gs-title:visited,.gs-imageResult a.gs-title:visited b{color:#0000CC}.gs-webResult.gs-result a.gs-title:hover,.gs-webResult.gs-result a.gs-title:hover b,.gs-imageResult a.gs-title:hover,.gs-imageResult a.gs-title:hover b{color:#0000CC}.gs-webResult.gs-result a.gs-title:active,.gs-webResult.gs-result a.gs-title:active b,.gs-imageResult a.gs-title:active,.gs-imageResult a.gs-title:active b{color:#0000CC}.gsc-cursor-page{color:#0000CC}a.gsc-trailing-more-results:link{color:#0000CC}.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,.gs-fileFormatType{color:#000000}.gs-webResult div.gs-visibleUrl{color:#008000}.gs-webResult div.gs-visibleUrl-short{color:#008000}.gsc-cursor-box{border-color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-page{border-color:#CCCCCC;background-color:#FFFFFF;color:#CCCCCC}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{border-color:#CCCCCC;background-color:#FFFFFF;color:#CCCCCC}.gsc-webResult.gsc-result.gsc-promotion{border-color:#336699;background-color:#FFFFFF}.gsc-completion-title{color:#0000CC}.gsc-completion-snippet{color:#000000}.gs-promotion a.gs-title:link,.gs-promotion a.gs-title:link *,.gs-promotion .gs-snippet a:link{color:#0000CC}.gs-promotion a.gs-title:visited,.gs-promotion a.gs-title:visited *,.gs-promotion .gs-snippet a:visited{color:#0000CC}.gs-promotion a.gs-title:hover,.gs-promotion a.gs-title:hover *,.gs-promotion .gs-snippet a:hover{color:#0000CC}.gs-promotion a.gs-title:active,.gs-promotion a.gs-title:active *,.gs-promotion .gs-snippet a:active{color:#0000CC}.gs-promotion .gs-snippet,.gs-promotion .gs-title .gs-promotion-title-right,.gs-promotion .gs-title .gs-promotion-title-right *{color:#000000}.gs-promotion .gs-visibleUrl,.gs-promotion .gs-visibleUrl-short{color:#008000}.gcsc-find-more-on-google{color:#0000CC}.gcsc-find-more-on-google-magnifier{fill:#0000CC}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:0 9px}.gsib_a{padding:5px 9px 4px 9px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style></head>
+  <body>
+    <sweetsearch-app>
+    
+
+    <!--
+      app-location and app-route elements provide the state of the URL for the app.
+    -->
+    <app-location class="style-scope sweetsearch-app">
+    <iron-location class="style-scope app-location" hidden="">
+    </iron-location>
+    <iron-query-params class="style-scope app-location" hidden="">
+    </iron-query-params>
+  </app-location>
+    <app-route pattern="/:page" class="style-scope sweetsearch-app"></app-route>
+
+    <iron-pages role="main" attr-for-selected="name" fallback-selection="home" class="style-scope sweetsearch-app">
+    
+
+    
+      <ss-home name="home" class="style-scope sweetsearch-app iron-selected">
+    
+    
+    <ss-header page="home" logo="none" class="style-scope ss-home">
+    
+
+    <app-header reveals="" class="style-scope ss-header x-scope app-header-0" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+    
+    <div id="contentContainer" class="style-scope app-header">
+      
+      <app-toolbar class="home-theme style-scope ss-header x-scope app-toolbar-0" style="transform: translate3d(0px, 0px, 0px);">
+    
+
+    
+        <paper-icon-button icon="menu" class="style-scope ss-header x-scope paper-icon-button-0" role="button" tabindex="0" aria-disabled="false"><iron-icon id="icon" class="style-scope paper-icon-button x-scope iron-icon-0"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" class="style-scope iron-icon"></path></g></svg>
+    
+  </iron-icon></paper-icon-button>
+        <span class="style-scope ss-header"> </span>
+      
+
+  </app-toolbar>
+    
+    </div>
+  </app-header>
+    <app-drawer swipe-open="" class="style-scope ss-header x-scope app-drawer-0" id="home-drawer" position="left" style="transition-duration: 200ms; touch-action: pan-y;">
+    
+
+    <div id="scrim" class="style-scope app-drawer" style="transition-duration: 200ms;"></div>
+
+    <!-- HACK(keanulee): Bind attributes here (in addition to :host) for styling to workaround Safari
+    bug. https://bugs.webkit.org/show_bug.cgi?id=170762 -->
+    <div id="contentContainer" class="style-scope app-drawer" swipe-open="" position="left" style="transition-duration: 200ms;">
+      
+      <paper-menu class="style-scope ss-header x-scope paper-menu-0" role="menu" tabindex="0">
+    
+    
+
+    <div class="selectable-content style-scope paper-menu">
+      
+        <a href="/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Home
+  </paper-item></a>
+        <a href="http://2day.sweetsearch.com/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    SweetSearch2Day
+  </paper-item></a>
+        <a href="http://www2.sweetsearch.com/biographies" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Biographies
+  </paper-item></a>
+        <a href="/about" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    About
+  </paper-item></a>
+        <a href="/privacy" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Privacy
+  </paper-item></a>
+        <a href="/tos" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Terms of Service
+  </paper-item></a>
+      
+    </div>
+  </paper-menu>
+    
+    </div>
+  </app-drawer>
+  </ss-header>
+    <div id="main-layout" class="style-scope ss-home">
+      <div id="search" class="style-scope ss-home">
+        <paper-image disabled="" class="style-scope ss-home panel-disabled x-scope paper-image-0">
+		
+
+		<paper-material id="material" elevation="0" animated="" class="style-scope paper-image x-scope paper-material-0">
+    
+    
+
+    
+			<a id="link" class="style-scope paper-image">
+				<img id="image" class="style-scope paper-image" src="/src/img/home-logo.png">
+				<div id="panel" class="style-scope paper-image">
+					<p id="title" class="style-scope paper-image"><b class="style-scope paper-image"> </b></p>
+					<p class="style-scope paper-image"> </p>
+				</div>
+			</a>
+		
+  </paper-material>
+	</paper-image>
+        <form is="iron-form" id="search-form" method="GET" action="/search" class="style-scope ss-home">
+          <ss-search-box class="style-scope ss-home">
+    
+
+    <iron-location class="style-scope ss-search-box" hidden="">
+    </iron-location>
+
+    <paper-input label="Enter search term" name="q" class="style-scope ss-search-box x-scope paper-input-0" tabindex="0" aria-disabled="false">
+    
+
+    <paper-input-container id="container" class="style-scope paper-input x-scope paper-input-container-0">
+    
+
+    <div class="floated-label-placeholder style-scope paper-input-container" aria-hidden="true">&nbsp;</div>
+
+    <div class="input-wrapper style-scope paper-input-container">
+      <span class="prefix style-scope paper-input-container"></span>
+
+      <div id="labelAndInputContainer" class="input-content style-scope paper-input-container" style="position: relative;">
+        <label aria-hidden="true" for="input" slot="label" class="style-scope paper-input" id="paper-input-label-1">Enter search term</label>
+        <input is="iron-input" id="input" slot="input" class="style-scope paper-input" autocomplete="off" placeholder="" autocapitalize="none" autocorrect="off" aria-describedby="" aria-labelledby="paper-input-label-1" name="q">
+      </div>
+
+      <span class="suffix style-scope paper-input-container"></span>
+    </div>
+
+    <div class="underline style-scope paper-input-container">
+      <div class="unfocused-line style-scope paper-input-container"></div>
+      <div class="focused-line style-scope paper-input-container"></div>
+    </div>
+
+    <div class="add-on-content style-scope paper-input-container">
+      
+    </div>
+  </paper-input-container>
+  </paper-input>
+    <paper-button raised="" class="home-theme style-scope ss-search-box x-scope paper-button-0" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">
+      <iron-icon icon="search" class="style-scope ss-search-box x-scope iron-icon-1"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" class="style-scope iron-icon"></path></g></svg>
+    
+  </iron-icon>
+      Search
+    </paper-button>
+  </ss-search-box>
+        </form>
+      </div>
+    </div>
+
+    <!-- Add icons for SweetSearch, News, History -->
+    <div id="icons" class="style-scope ss-home">
+      <ul id="icon-list" class="style-scope ss-home">
+        <li id="news-icon" class="style-scope ss-home"><a href="//news.sweetsearch.com" class="style-scope ss-home"><img src="/src/img/news-icon.png" width="20px" height="20px" class="style-scope ss-home"><span id="news" class="style-scope ss-home">News</span></a></li>
+        <li id="history-icon" class="style-scope ss-home"><a href="//history.sweetsearch.com" class="style-scope ss-home"><img src="/src/img/history-icon.png" width="20px" height="20px" class="style-scope ss-home"><span id="history" class="style-scope ss-home">History</span></a></li>
+      </ul>
+    </div>
+
+    <!-- Add Choose2Matter Ad -->
+    <div id="choose2matter" class="style-scope ss-home">
+      <div id="c2m-logo" class="style-scope ss-home">
+        <a href="https://www.scribd.com/document/354612189/Choose2Matter-Course-Overview#fullscreen" class="style-scope ss-home"><img src="/src/img/choose2matter-logo.png" width="130px" height="130px" class="style-scope ss-home"></a>
+      </div>
+    </div>
+  </ss-home>
+      <ss-search name="search" class="style-scope sweetsearch-app x-scope ss-search-0">
+    
+
+    <ss-header page="search" class="style-scope ss-search">
+    
+
+    <app-header reveals="" class="style-scope ss-header x-scope app-header-0">
+    
+    <div id="contentContainer" class="style-scope app-header">
+      
+      <app-toolbar class="home-theme style-scope ss-header x-scope app-toolbar-0">
+    
+
+    
+        <paper-icon-button icon="menu" class="style-scope ss-header x-scope paper-icon-button-0" role="button" tabindex="0" aria-disabled="false"><iron-icon id="icon" class="style-scope paper-icon-button x-scope iron-icon-0"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" class="style-scope iron-icon"></path></g></svg>
+    
+  </iron-icon></paper-icon-button>
+        <span class="style-scope ss-header">SweetSearch Result</span>
+      
+
+  </app-toolbar>
+    
+    </div>
+  </app-header>
+    <app-drawer swipe-open="" class="style-scope ss-header x-scope app-drawer-0" id="search-drawer" position="left" style="transition-duration: 200ms; touch-action: pan-y;">
+    
+
+    <div id="scrim" class="style-scope app-drawer" style="transition-duration: 200ms;"></div>
+
+    <!-- HACK(keanulee): Bind attributes here (in addition to :host) for styling to workaround Safari
+    bug. https://bugs.webkit.org/show_bug.cgi?id=170762 -->
+    <div id="contentContainer" class="style-scope app-drawer" swipe-open="" position="left" style="transition-duration: 200ms;">
+      
+      <paper-menu class="style-scope ss-header x-scope paper-menu-0" role="menu" tabindex="0">
+    
+    
+
+    <div class="selectable-content style-scope paper-menu">
+      
+        <a href="/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Home
+  </paper-item></a>
+        <a href="http://2day.sweetsearch.com/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    SweetSearch2Day
+  </paper-item></a>
+        <a href="http://www2.sweetsearch.com/biographies" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Biographies
+  </paper-item></a>
+        <a href="/about" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    About
+  </paper-item></a>
+        <a href="/privacy" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Privacy
+  </paper-item></a>
+        <a href="/tos" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Terms of Service
+  </paper-item></a>
+      
+    </div>
+  </paper-menu>
+    
+    </div>
+  </app-drawer>
+  </ss-header>
+
+    <div id="main-layout" class="style-scope ss-search">
+      <div id="search" class="center style-scope ss-search">
+        <ss-search-box page="search" class="style-scope ss-search">
+    
+
+    <iron-location class="style-scope ss-search-box" hidden="">
+    </iron-location>
+
+    <paper-input label="Enter search term" name="q" class="style-scope ss-search-box x-scope paper-input-0" tabindex="0" aria-disabled="false">
+    
+
+    <paper-input-container id="container" class="style-scope paper-input x-scope paper-input-container-0">
+    
+
+    <div class="floated-label-placeholder style-scope paper-input-container" aria-hidden="true">&nbsp;</div>
+
+    <div class="input-wrapper style-scope paper-input-container">
+      <span class="prefix style-scope paper-input-container"></span>
+
+      <div id="labelAndInputContainer" class="input-content style-scope paper-input-container" style="position: relative;">
+        <label aria-hidden="true" for="input" slot="label" class="style-scope paper-input" id="paper-input-label-2">Enter search term</label>
+        <input is="iron-input" id="input" slot="input" class="style-scope paper-input" autocomplete="off" placeholder="" autocapitalize="none" autocorrect="off" aria-describedby="" aria-labelledby="paper-input-label-2" name="q">
+      </div>
+
+      <span class="suffix style-scope paper-input-container"></span>
+    </div>
+
+    <div class="underline style-scope paper-input-container">
+      <div class="unfocused-line style-scope paper-input-container"></div>
+      <div class="focused-line style-scope paper-input-container"></div>
+    </div>
+
+    <div class="add-on-content style-scope paper-input-container">
+      
+    </div>
+  </paper-input-container>
+  </paper-input>
+    <paper-button raised="" class="home-theme style-scope ss-search-box x-scope paper-button-0" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">
+      <iron-icon icon="search" class="style-scope ss-search-box x-scope iron-icon-1"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" class="style-scope iron-icon"></path></g></svg>
+    
+  </iron-icon>
+      Search
+    </paper-button>
+  </ss-search-box>
+        <div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr" style="visibility: hidden;"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8" style="display: none;"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" id="gsc-i-id1" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; background: url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="Clear search box" role="button" style="display: none;"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form><div class="gsc-results-wrapper-nooverlay"><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"><div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Web</div><span class="gs-spacer"> </span><div tabindex="0" aria-label="refinement" role="tab" class="gsc-tabHeader gsc-tabhInactive gsc-inline-block">Image</div><span class="gs-spacer"> </span></div></div><div class="gsc-positioningWrapper"><div class="gsc-refinementsAreaInvisible"></div></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><div><div class="gsc-expansionArea"></div></div></div><div class="gsc-resultsRoot gsc-tabData gsc-tabdInactive"><div><div class="gsc-expansionArea"></div></div></div></div></div></div></div></div></div>
+      </div>
+    </div>
+  </ss-search>
+      <ss-privacy name="privacy" class="style-scope sweetsearch-app">
+    
+
+    <ss-header page="privacy" title="Privacy Policy" class="style-scope ss-privacy">
+    
+
+    <app-header reveals="" class="style-scope ss-header x-scope app-header-0">
+    
+    <div id="contentContainer" class="style-scope app-header">
+      
+      <app-toolbar class="home-theme style-scope ss-header x-scope app-toolbar-0">
+    
+
+    
+        <paper-icon-button icon="menu" class="style-scope ss-header x-scope paper-icon-button-0" role="button" tabindex="0" aria-disabled="false"><iron-icon id="icon" class="style-scope paper-icon-button x-scope iron-icon-0"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" class="style-scope iron-icon"></path></g></svg>
+    
+  </iron-icon></paper-icon-button>
+        <span class="style-scope ss-header">Privacy Policy</span>
+      
+
+  </app-toolbar>
+    
+    </div>
+  </app-header>
+    <app-drawer swipe-open="" class="style-scope ss-header x-scope app-drawer-0" id="privacy-drawer" position="left" style="transition-duration: 200ms; touch-action: pan-y;">
+    
+
+    <div id="scrim" class="style-scope app-drawer" style="transition-duration: 200ms;"></div>
+
+    <!-- HACK(keanulee): Bind attributes here (in addition to :host) for styling to workaround Safari
+    bug. https://bugs.webkit.org/show_bug.cgi?id=170762 -->
+    <div id="contentContainer" class="style-scope app-drawer" swipe-open="" position="left" style="transition-duration: 200ms;">
+      
+      <paper-menu class="style-scope ss-header x-scope paper-menu-0" role="menu" tabindex="0">
+    
+    
+
+    <div class="selectable-content style-scope paper-menu">
+      
+        <a href="/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Home
+  </paper-item></a>
+        <a href="http://2day.sweetsearch.com/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    SweetSearch2Day
+  </paper-item></a>
+        <a href="http://www2.sweetsearch.com/biographies" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Biographies
+  </paper-item></a>
+        <a href="/about" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    About
+  </paper-item></a>
+        <a href="/privacy" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Privacy
+  </paper-item></a>
+        <a href="/tos" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Terms of Service
+  </paper-item></a>
+      
+    </div>
+  </paper-menu>
+    
+    </div>
+  </app-drawer>
+  </ss-header>
+
+    <div id="main-layout" class="style-scope ss-privacy">
+      <div id="privacy" class="style-scope ss-privacy">
+        <h4 class="style-scope ss-privacy">Privacy Policy</h4>
+        <p class="style-scope ss-privacy">SweetSearch is published by Dulcinea Media, Inc. ("Dulcinea Media").  We are firmly committed to protecting your privacy and providing a safe online experience for all of our users.  To better protect your privacy, this Privacy Policy explains our online information practices and the choices you can make about the way your information is collected and used by Dulcinea Media. With respect to each aspect of our Web site, we explain what types of information we collect and what we do with it.</p>
+        
+        <h4 class="style-scope ss-privacy">Surveys or Contests</h4>
+        <p class="style-scope ss-privacy">From time-to-time we may provide you the opportunity to participate in contests or surveys on our site. If you participate, we will request certain personally identifiable information from you. Participation in these surveys or contests is completely voluntary and you therefore have a choice whether or not to disclose this information. The requested information typically includes contact information (such as name and address) and demographic information (such as zip code).</p>
+
+        <p class="style-scope ss-privacy">We may use a third party service provider to conduct these surveys or contests; that company will be prohibited from using our users' personally identifiable information for any other purpose without your consent. We will not share the personally identifiable information you provide through a contest or survey with other third parties unless we give you notice and the choice to opt-out.</p>
+        
+        <h4 class="style-scope ss-privacy">Tell-A-Friend</h4>
+        <p class="style-scope ss-privacy">If you choose to use our referral service to tell a friend about our site or an article on our site, we will ask you for your friend's name and email address. We will send your friend a one-time email inviting him or her to visit the site. Dulcinea Media stores this information for the sole purpose of sending this one-time email.</p>
+        
+        <h4 class="style-scope ss-privacy">Cookies</h4>
+        <p class="style-scope ss-privacy">A cookie is a small text file that is stored on a user's computer for record-keeping purposes. We or our third party advertisers use cookies on this Web site to gather certain anonymous information automatically about our users and store it in log files. This information includes internet protocol (IP) addresses, browser type, internet service provider (ISP), referring/exit pages, operating system, date/time stamp, and clickstream data.  We use this information, which does not identify individual users, to analyze trends, to administer the site, to track users' movements around the site and to gather demographic information about our user base as a whole. We also use session cookies to make it easier for you to navigate our site. A session ID cookie expires when you close your browser. We do not or combine this anonymous data with any personally identifiable user information.</p>
+        
+        <p class="style-scope ss-privacy">You have the ability to accept, decline and delete cookies by modifying your Web browser settings. However, if you disable cookies, some advanced and customized features of our Web site (and other Web sites) will not be available to you.  For more information on how to change your Web browser settings to disable and/or delete cookies please see the <a href="http://www.allaboutcookies.org/manage-cookies/" class="style-scope ss-privacy">Interactive Advertising Bureau's "Manage Cookies" article</a>.</p>
+        
+        <h4 class="style-scope ss-privacy">Web Beacons</h4>
+        <p class="style-scope ss-privacy">We employ or our third party advertising partner employ Web beacons that help us better manage content on our site by informing us what content is effective. Web beacons are clear gifs (tiny graphics) with a unique identifier, similar in function to cookies, and are used to track the online movements of Web users. In contrast to cookies, which are stored on a user's computer hard drive, Web beacons are embedded invisibly on Web pages and are about the size of the period at the end of this sentence.  The Web beacons do not collect any personally identifiable information from our users.  We do not tie the information gathered by Web beacons to our customers' personally identifiable information.</p>
+       
+        <p class="style-scope ss-privacy">We use Web beacons in our HTML-based emails to let us know which emails have been opened by recipients. This allows us to gauge the effectiveness of certain communications and the effectiveness of our marketing campaigns. If you would like to opt-out of these emails, please see "Newsletters".</p>
+        
+        <h4 class="style-scope ss-privacy">Third Party Advertisers</h4>
+        <p class="style-scope ss-privacy">Dulcinea Media uses trusted and reputable other advertising companies, called third-party ad servers or ad networks, to serve advertisements within our Web site. Because your web browser must request these advertising banners from the ad network Web site, these companies can send their own cookies to your cookie file.  We only authorize our third-party ad servers to employ anonymous cookies for ad delivery and anonymous targeting. Our third-party ad servers do not collect, nor do we give them access, to any personally identifying information about you.</p>
+          
+        <p class="style-scope ss-privacy">If you want to opt-out of third party ad network cookies, you may do so through the <a href="https://web.archive.org/web/20150325005038/http://www.networkadvertising.org/managing/opt_out.asp" class="style-scope ss-privacy">Network Advertising Initiative</a>.</p>
+
+        <h4 class="style-scope ss-privacy">Links to Other Sites</h4>
+        <p class="style-scope ss-privacy">This Web site contains links to other sites that are not owned or controlled by Dulcinea Media. We are not responsible for the privacy practices of such other sites.</p>
+        
+        <p class="style-scope ss-privacy">We encourage you to be aware when you leave our site and to read the privacy statements of each and every Web site that collects personally identifiable information.</p>
+          
+        <h4 class="style-scope ss-privacy">Business Transitions</h4>
+        <p class="style-scope ss-privacy">In the event Dulcinea Media goes through a business transition, such as a merger, acquisition by another company, or sale of all or a portion of its assets, your personal information voluntarily provided to Dulcinea Media will likely be among the assets transferred. You will be notified via notice on our Web site promptly after any such change in ownership.</p>
+        
+        <h4 class="style-scope ss-privacy">Changes in this Privacy Statement</h4>
+        <p class="style-scope ss-privacy">If we change our privacy policy, we will post those changes to this privacy statement and other places we deem appropriate so that you are aware of what information we collect, how we use it, and under what circumstances. We reserve the right to modify this privacy statement at any time.</p>
+        
+        <h4 class="style-scope ss-privacy">Contact Us</h4>
+        <p class="style-scope ss-privacy">If you have any questions or suggestions regarding our privacy policy, please contact us at: Info@dulcineamedia.com</p>
+
+        <p class="style-scope ss-privacy">
+          Dulcinea Media <br class="style-scope ss-privacy">
+          205 Sherman St. <br class="style-scope ss-privacy">
+          Lynbrook, NY 11563 <br class="style-scope ss-privacy">
+          <a href="http://www.DulcineaMedia.com" class="style-scope ss-privacy">www.DulcineaMedia.com</a>
+        </p>
+      </div>
+    </div>
+  </ss-privacy>
+      <ss-tos name="tos" class="style-scope sweetsearch-app">
+    
+
+    <ss-header page="tos" title="Terms of Service" class="style-scope ss-tos">
+    
+
+    <app-header reveals="" class="style-scope ss-header x-scope app-header-0">
+    
+    <div id="contentContainer" class="style-scope app-header">
+      
+      <app-toolbar class="home-theme style-scope ss-header x-scope app-toolbar-0">
+    
+
+    
+        <paper-icon-button icon="menu" class="style-scope ss-header x-scope paper-icon-button-0" role="button" tabindex="0" aria-disabled="false"><iron-icon id="icon" class="style-scope paper-icon-button x-scope iron-icon-0"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" class="style-scope iron-icon"></path></g></svg>
+    
+  </iron-icon></paper-icon-button>
+        <span class="style-scope ss-header">Terms of Service</span>
+      
+
+  </app-toolbar>
+    
+    </div>
+  </app-header>
+    <app-drawer swipe-open="" class="style-scope ss-header x-scope app-drawer-0" id="tos-drawer" position="left" style="transition-duration: 200ms; touch-action: pan-y;">
+    
+
+    <div id="scrim" class="style-scope app-drawer" style="transition-duration: 200ms;"></div>
+
+    <!-- HACK(keanulee): Bind attributes here (in addition to :host) for styling to workaround Safari
+    bug. https://bugs.webkit.org/show_bug.cgi?id=170762 -->
+    <div id="contentContainer" class="style-scope app-drawer" swipe-open="" position="left" style="transition-duration: 200ms;">
+      
+      <paper-menu class="style-scope ss-header x-scope paper-menu-0" role="menu" tabindex="0">
+    
+    
+
+    <div class="selectable-content style-scope paper-menu">
+      
+        <a href="/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Home
+  </paper-item></a>
+        <a href="http://2day.sweetsearch.com/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    SweetSearch2Day
+  </paper-item></a>
+        <a href="http://www2.sweetsearch.com/biographies" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Biographies
+  </paper-item></a>
+        <a href="/about" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    About
+  </paper-item></a>
+        <a href="/privacy" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Privacy
+  </paper-item></a>
+        <a href="/tos" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+    Terms of Service
+  </paper-item></a>
+      
+    </div>
+  </paper-menu>
+    
+    </div>
+  </app-drawer>
+  </ss-header>
+
+    <div id="main-layout" class="style-scope ss-tos">
+      <div id="tos" class="style-scope ss-tos">
+        <h4 class="style-scope ss-tos">TERMS OF SERVICE</h4>
+        
+        <h4 class="style-scope ss-tos">1. Definitions</h4>
+        <p class="style-scope ss-tos">"SweetSearch.com" is the interactive on-line service operated by Dulcinea Media, Inc. ("Dulcinea Media") on the World Wide Web of the Internet, consisting of information services and content provided by Dulcinea Media on the Web Site SweetSearch.com. "Subscriber" means each person who establishes or accesses a connection (an "Account") for access to and use of SweetSearch.com.</p>
+        
+        <h4 class="style-scope ss-tos">2. General</h4>
+        <p class="style-scope ss-tos">(A) This Agreement sets forth the terms and conditions that apply to use of SweetSearch.com by Subscriber. By using SweetSearch.com (other than to read this Agreement for the first time), Subscriber agrees to comply with all of the terms and conditions hereof. The right to use SweetSearch.com is personal to Subscriber and is not transferable to any other person or entity. Subscriber is responsible for ensuring that all use of SweetSearch.com by Subscriber complies fully with the provisions of this Agreement.</p>
+        
+        <p class="style-scope ss-tos">(B) Dulcinea Media shall have the right at any time to change or discontinue any aspect or feature of SweetSearch.com, including, but not limited to, content, hours of availability, and equipment needed for access or use.</p>
+        
+        <h4 class="style-scope ss-tos">3. Changed Terms</h4>
+        <p class="style-scope ss-tos">Dulcinea Media shall have the right at any time to change or modify the terms and conditions applicable to Subscriber's use of SweetSearch.com, or any part thereof, or to impose new conditions. Such changes, modifications, additions or deletions shall be effective immediately upon notice thereof, which may be given by means including, but not limited to, posting on SweetSearch.com, or by electronic or conventional mail, or by any other means by which Subscriber obtains notice thereof. Any use of SweetSearch.com by Subscriber after such notice shall be deemed to constitute acceptance by Subscriber of such changes, modifications or additions.</p>
+        
+        <h4 class="style-scope ss-tos">4. Equipment</h4>
+        <p class="style-scope ss-tos">Subscriber shall be responsible for obtaining and maintaining all telephone, computer hardware and other equipment needed for access to and use of SweetSearch.com and all charges related thereto.</p>
+        
+        <h4 class="style-scope ss-tos">5. Subscriber Conduct</h4>
+        <p class="style-scope ss-tos">(A) Subscriber shall use SweetSearch.com for lawful purposes only. Subscriber shall not post or transmit through SweetSearch.com any material which violates or infringes in any way upon the rights of others, which is unlawful, threatening, abusive, defamatory, invasive of privacy or publicity rights, vulgar, obscene, profane or otherwise objectionable, which encourages conduct that would constitute a criminal offense, give rise to civil liability or otherwise violate any law, or which, without Dulcinea Media's express prior approval, contains advertising or any solicitation with respect to products or services. Any conduct by a Subscriber that in Dulcinea Media's sole discretion restricts or inhibits any other Subscriber from using or enjoying SweetSearch.com will not be permitted. Subscriber shall not use SweetSearch.com to advertise or perform any commercial solicitation, including, but not limited to, the solicitation of users to become subscribers of other on-line information services competitive with SweetSearch.com.</p>
+        
+        <p class="style-scope ss-tos">(B) SweetSearch.com contains copyrighted material, trademarks and other proprietary information, including, but not limited to, text, software, photos, video, graphics, music and sound, and the entire contents of SweetSearch.com are copyrighted as a collective work under the United States copyright laws. Dulcinea Media owns a copyright in the selection, coordination, arrangement and enhancement of such content, as well as in the content original to it. Subscriber may not modify, publish, transmit, participate in the transfer or sale, create derivative works, or in any way exploit, any of the content, in whole or in part. Subscriber may download copyrighted material for Subscriber's personal use only. Except as otherwise expressly permitted under copyright law, no copying, redistribution, retransmission, publication or commercial exploitation of downloaded material will be permitted without the express permission of Dulcinea Media and the copyright owner. In the event of any permitted copying, redistribution or publication of copyrighted material, no changes in or deletion of author attribution, trademark legend or copyright notice shall be made. Subscriber acknowledges that it does not acquire any ownership rights by downloading copyrighted material.</p>
+        
+        <p class="style-scope ss-tos">(C) Subscriber shall not upload, post or otherwise make available on SweetSearch.com any material protected by copyright, trademark or other proprietary right without the express permission of the owner of the copyright, trademark or other proprietary right and the burden of determining that any material is not protected by copyright rests with Subscriber. Subscriber shall be solely liable for any damage resulting from any infringement of copyrights, proprietary rights, or any other harm resulting from such a submission. By submitting material to any public area of SweetSearch.com, Subscriber automatically grants, or warrants that the owner of such material has expressly granted Dulcinea Media the royalty-free, perpetual, irrevocable, non-exclusive right and license to use, reproduce, modify, adapt, publish, translate and distribute such material (in whole or in part) worldwide and/or to incorporate it in other works in any form, media or technology now known or hereafter developed for the full term of any copyright that may exist in such material. Subscriber also permits any other Subscriber to access, view, store or reproduce the material for that Subscriber's personal use. Subscriber hereby grants Dulcinea Media the right to edit, copy, publish and distribute any material made available on SweetSearch.com by Subscriber.</p>
+        
+        <p class="style-scope ss-tos">(D) The foregoing provisions of Section 5 are for the benefit of Dulcinea Media, its subsidiaries, affiliates and its third party content providers and licensors and each shall have the right to assert and enforce such provisions directly or on its own behalf.</p>
+        
+        <h4 class="style-scope ss-tos">6. Disclaimer of Warranty; Limitation of Liability</h4>
+        <p class="style-scope ss-tos">(A) SUBSCRIBER EXPRESSLY AGREES THAT USE OF SWEETSEARCH.COM IS AT SUBSCRIBER'S SOLE RISK. NEITHER DULCINEA MEDIA, ITS AFFILIATES NOR ANY OF THEIR RESPECTIVE EMPLOYEES, AGENTS, THIRD PARTY CONTENT PROVIDERS OR LICENSORS WARRANT THAT SWEETSEARCH.COM WILL BE UNINTERRUPTED OR ERROR FREE; NOR DO THEY MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF SWEETSEARCH.COM, OR AS TO THE ACCURACY, RELIABILITY OR CONTENT OF ANY INFORMATION, SERVICE, OR MERCHANDISE PROVIDED THROUGH SWEETSEARCH.COM.</p>
+        
+        <p class="style-scope ss-tos">(B) SWEETSEARCH.COM IS PROVIDED ON AN "AS IS" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF TITLE OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OTHER THAN THOSE WARRANTIES WHICH ARE IMPLIED BY AND INCAPABLE OF EXCLUSION, RESTRICTION OR MODIFICATION UNDER THE LAWS APPLICABLE TO THIS AGREEMENT.</p>
+        
+        <p class="style-scope ss-tos">(C) THIS DISCLAIMER OF LIABILITY APPLIES TO ANY DAMAGES OR INJURY CAUSED BY ANY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATION LINE FAILURE, THEFT OR DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF RECORD, WHETHER FOR BREACH OF CONTRACT, TORTIOUS BEHAVIOR, NEGLIGENCE, OR UNDER ANY OTHER CAUSE OF ACTION. SUBSCRIBER SPECIFICALLY ACKNOWLEDGES THAT DULCINEA MEDIA IS NOT LIABLE FOR THE DEFAMATORY, OFFENSIVE OR ILLEGAL CONDUCT OF OTHER SUBSCRIBERS OR THIRD-PARTIES AND THAT THE RISK OF INJURY FROM THE FOREGOING RESTS ENTIRELY WITH SUBSCRIBER.</p>
+        
+        <p class="style-scope ss-tos">(D) IN NO EVENT WILL DULCINEA MEDIA, OR ANY PERSON OR ENTITY INVOLVED IN CREATING, PRODUCING OR DISTRIBUTING SWEETSEARCH.COM, BE LIABLE FOR ANY DAMAGES, INCLUDING, WITHOUT LIMITATION, DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE SWEETSEARCH.COM. SUBSCRIBER HEREBY ACKNOWLEDGES THAT THE PROVISIONS OF THIS SECTION SHALL APPLY TO ALL CONTENT ON SWEETSEARCH.COM.</p>
+        
+        <p class="style-scope ss-tos">(E) IN ADDITION TO THE TERMS SET FORTH ABOVE NEITHER, DULCINEA MEDIA, NOR ITS AFFILIATES, INFORMATION PROVIDERS OR CONTENT PARTNERS SHALL BE LIABLE REGARDLESS OF THE CAUSE OR DURATION, FOR ANY ERRORS, INACCURACIES, OMISSIONS, OR OTHER DEFECTS IN, OR UNTIMELINESS OR INAUTHENTICITY OF, THE INFORMATION CONTAINED WITHIN SWEETSEARCH.COM, OR FOR ANY DELAY OR INTERRUPTION IN THE TRANSMISSION THEREOF TO THE USER, OR FOR ANY CLAIMS OR LOSSES ARISING THEREFROM OR OCCASIONED THEREBY. NONE OF THE FOREGOING PARTIES SHALL BE LIABLE FOR ANY THIRD-PARTY CLAIMS OR LOSSES OF ANY NATURE, INCLUDING, BUT NOT LIMITED TO, LOST PROFITS, PUNITIVE OR CONSEQUENTIAL DAMAGES. NEITHER, DULCINEA MEDIA, NOR ITS AFFILIATES, INFORMATION PROVIDERS OR CONTENT PARTNERS WARRANT OR GUARANTEE THE TIMELINESS, SEQUENCE, ACCURACY OR COMPLETENESS OF THIS INFORMATION. ADDITIONALLY, THERE ARE NO WARRANTIES AS TO THE RESULTS OBTAINED FROM THE USE OF THE INFORMATION.</p>
+        
+        <h4 class="style-scope ss-tos">7. Monitoring</h4>
+        <p class="style-scope ss-tos">Dulcinea Media shall have the right, but not the obligation, to monitor the content of SweetSearch.com, including chat rooms, comment sections and forums, to determine compliance with this Agreement and any operating rules established by Dulcinea Media and to satisfy any law, regulation or authorized government request. Dulcinea Media shall have the right in its sole discretion to edit, refuse to post or remove any material submitted to or posted on SweetSearch.com. Without limiting the foregoing, Dulcinea Media shall have the right to remove any material that Dulcinea Media, in its sole discretion, finds to be in violation of the provisions hereof or otherwise objectionable.</p>
+        
+        <h4 class="style-scope ss-tos">8. Indemnification</h4>
+        <p class="style-scope ss-tos">Subscriber agrees to defend, indemnify and hold harmless Dulcinea Media, its affiliates and their respective directors, officers, employees and agents from and against all claims and expenses, including attorneys' fees, arising out of the use of SweetSearch.com by Subscriber.</p>
+        
+        <h4 class="style-scope ss-tos">9. Termination</h4>
+        <p class="style-scope ss-tos">Either Dulcinea Media or Subscriber may terminate this Agreement at any time. Without limiting the foregoing, Dulcinea Media shall have the right to immediately terminate Subscriber's Account in the event of any conduct by Subscriber which Dulcinea Media, in its sole discretion, considers to be unacceptable, or in the event of any breach by Subscriber of this Agreement. The provisions of Sections 5(B), 5(C), 5(D), 6, 8, 10 and this Section 9 shall survive termination of this Agreement.</p>
+        
+        <h4 class="style-scope ss-tos">10. Trademarks</h4>
+        <p class="style-scope ss-tos">SweetSearch is a pending trademark of Dulcinea Media, Inc. All rights reserved. All other trademarks appearing on SweetSearch.com are the property of their respective owners.</p>
+        
+        <h4 class="style-scope ss-tos">11. Third Party Content</h4>
+        <p class="style-scope ss-tos">Dulcinea Media may distribute content supplied by third parties and Subscribers. Accordingly, Dulcinea Media has no more editorial control over such content than does a public library, bookstore, or newsstand. Any opinions, advice, statements, services, offers, or other information or content expressed or made available by third parties, including information providers, Subscribers or any other user of SweetSearch.com, are those of the respective author(s) or distributor(s) and not of Dulcinea Media. Neither Dulcinea Media nor any third-party provider of information guarantees the accuracy, completeness, or usefulness of any content, nor its merchantability or fitness for any particular purpose. (Refer to Section 6 above for the complete provisions governing limitation of liabilities and disclaimers of warranty.)</p>
+        
+        <p class="style-scope ss-tos">In many instances, the content available through SweetSearch.com represents the opinions and judgments of the respective information provider, Subscriber, or other user not under contract with Dulcinea Media. Dulcinea Media neither endorses nor is responsible for the accuracy or reliability of any opinion, advice or statement made on SweetSearch.com by anyone other than authorized Dulcinea Media spokespersons while acting in their official capacities. Under no circumstances will Dulcinea Media be liable for any loss or damage caused by Subscriber's reliance on information obtained through SweetSearch.com. It is the responsibility of Subscriber to evaluate the accuracy, completeness or usefulness of any information, opinion, advice or other content available through SweetSearch.com. Please seek the advice of professionals, as appropriate, regarding the evaluation of any specific information, opinion, advice or other content.</p>
+        
+        <h4 class="style-scope ss-tos">12. Miscellaneous</h4>
+        <p class="style-scope ss-tos">This Agreement and any operating rules for SweetSearch.com established by Dulcinea Media constitute the entire agreement of the parties with respect to the subject matter hereof, and supersede all previous written or oral agreements between the parties with respect to such subject matter. This Agreement shall be construed in accordance with the laws of the State of New York, without regard to its conflict of laws rules. No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. The section headings used herein are for convenience only and shall not be given any legal import.</p>
+      </div>
+    </div>
+  </ss-tos>
+      <ss-about name="about" class="style-scope sweetsearch-app">
+    
+
+    <ss-header page="about" title="About SweetSearch" class="style-scope ss-about">
+    
+
+    <app-header reveals="" class="style-scope ss-header x-scope app-header-0">
+    
+    <div id="contentContainer" class="style-scope app-header">
+      
+      <app-toolbar class="home-theme style-scope ss-header x-scope app-toolbar-0">
+    
+
+    
+        <paper-icon-button icon="menu" class="style-scope ss-header x-scope paper-icon-button-0" role="button" tabindex="0" aria-disabled="false"><iron-icon id="icon" class="style-scope paper-icon-button x-scope iron-icon-0"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" class="style-scope iron-icon"></path></g></svg>
+    
+  </iron-icon></paper-icon-button>
+        <span class="style-scope ss-header">About Answerr</span>
+      
+
+  </app-toolbar>
+    
+    </div>
+  </app-header>
+    <app-drawer swipe-open="" class="style-scope ss-header x-scope app-drawer-0" id="about-drawer" position="left" style="transition-duration: 200ms; touch-action: pan-y;">
+    
+
+    <div id="scrim" class="style-scope app-drawer" style="transition-duration: 200ms;"></div>
+
+    <div id="contentContainer" class="style-scope app-drawer" swipe-open="" position="left" style="transition-duration: 200ms;">
+      
+      <paper-menu class="style-scope ss-header x-scope paper-menu-0" role="menu" tabindex="0">
+    
+    
+
+    <div class="selectable-content style-scope paper-menu">
+      
+        <a href="/" class="style-scope ss-header" tabindex="-1"><paper-item class="style-scope ss-header x-scope paper-item-0" role="option" tabindex="0" aria-disabled="false">
+    
+    
+
+  </paper-item></a>
+      
+    </div>
+  </paper-menu>
+    
+    </div>
+  </app-drawer>
+  </ss-header>
+
+    <div id="main-layout" class="style-scope ss-about">
+      <div id="about" class="style-scope ss-about">
+        <h4 class="style-scope ss-about">Answerr is a Search Engine for Students</h4>
+        
+        <p class="style-scope ss-about"><a href="http://www.sweetsearch.com/" class="style-scope ss-about">Answerr</a> has been the best place for students - and anyone else - to begin their research. It leverages Google to search only <strong class="style-scope ss-about">a fully vetted "whitelist" of websites.</strong>
+        </p>
+
+        <ul class="style-scope ss-about">
+            <li class="style-scope ss-about">It helps users find outstanding information, faster.</li>
+            <li class="style-scope ss-about">It enables them to determine the most relevant results from a list of credible resources, and makes it much easier for them to find primary sources.</li>
+            <li class="style-scope ss-about">We exclude not only obvious spam sites, but also marginal sites that read well, but lack academic or journalistic rigor.</li>
+            <li class="style-scope ss-about">As importantly, the very best Web sites that are often buried on other search engines appear on the first page of SweetSearch results.</li>
+        </ul>
+
+        <p class="style-scope ss-about">We constantly evaluate our search results and "fine-tune" them. In the summer of 2017, we reviewed every link in the index, and scoured the entire web for new, worthy websites to add.</p>
+
+        <p class="style-scope ss-about">We believe that SweetSearch is the safest search engine for students, because it searches a whitelist, rather than relying on filters, as other student search engines do.</p>
+
+        <p class="style-scope ss-about">Some educators have asked us about the Google Ads at the top of the results page, which are similar to what you’d see on Google itself. We are working on options to remove them. For now, tell students to look past the clearly labeled, first few links at the top and then dive into the spectacular results below.</p>
+
+        <p class="style-scope ss-about">We'd love to get your feedback on SweetSearch. Try your own searches and let us know what you think by e-mailing <a href="mailto:info@dulcineamedia.com" class="style-scope ss-about">walishashank85@gmail.com</a>.</p>
+
+        <p class="style-scope ss-about">Answerr is owned and operated by Shashank Wali.
+      </div>
+    </div>
+  </ss-about>
+    
+  </iron-pages>
+  </sweetsearch-app>
+  
+
+<iron-a11y-announcer>
+    
+    <div class="style-scope iron-a11y-announcer" aria-live="polite"></div>
+  </iron-a11y-announcer><table cellspacing="0" cellpadding="0" class="gstl_50 gssb_c" style="width: 2px; display: none; top: 3px; position: absolute; left: -1px;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table></body></html>
